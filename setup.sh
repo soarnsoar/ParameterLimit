@@ -12,3 +12,5 @@ cd $CMSSW_BASE/src/HiggsAnalysis/CombinedLimit
 git fetch origin
 git checkout v8.0.1
 scramv1 b clean; scramv1 b # always make a clean build
+
+git clone git@github.com:soarnsoar/ToolsForHiggsCombine.git
